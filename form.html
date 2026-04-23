@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Tech Community - Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./form.html">Pendaftaran</a>
+        <a href="./gallery.html">Multimedia</a>
+    </nav>
+
+    <div class="container">
+        <h2>Pendaftaran Anggota Baru</h2>
+        <form id="memberForm">
+            <div class="form-group">
+                <label>Nama:</label>
+                <input type="text" id="nama" required>
+            </div>
+            <div class="form-group">
+                <label>Email:</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label>Bidang Minat:</label>
+                <select id="minat" required>
+                    <option value="">-- Pilih Bidang --</option>
+                    <option value="Web Development">Web Development</option>
+                    <option value="Mobile Development">Mobile Development</option>
+                    <option value="UI/UX Design">UI/UX Design</option>
+                </select>
+            </div>
+            <button type="submit">Daftar</button>
+        </form>
+
+        <div id="result" style="margin-top: 20px; font-weight: bold; color: #27ae60;"></div>
+        <br>
+        <a href="./index.html">Kembali ke Halaman Utama</a> 
+    </div>
+
+    <script>
+    
+    </script>
+</body>
+</html>
